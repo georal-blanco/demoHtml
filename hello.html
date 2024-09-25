@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
+
+<head>
+   <title> Computing fundamentals</title>
+   <link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho:wght@400&display=swap" rel="stylesheet">
+   <style>
+    body {
+          background-image: url('https://raw.githubusercontent.com/georal-blanco/demoHtml/refs/heads/main/pattern3.png');
+          background-repeat: no-repeat; 
+          background-position: center center;
+          background-attachment: fixed
+         }
+    body {
+          font-family: 'BIZ UDMincho', sans-serif;
+          font-size: large;
+         }    
+      a:link,:visited {color:Orange;"}
+  </style>
+</head>
+
 <body>
+   <h1>Hi!</h1>
 
-<h1>Hello!</h1>
+   <p>I'm Georal. I like Board games, movies, breathing, and eating food. <b id="huh" onclick="myFunction()">I used to like drawing too...</b></p>
+   <p>This is a website done for the <a href="https://www.roppers.org/courses/fundamentals">Hopper's Roppers Computing Fundamentals course</a>. 
+More specifically, for the "Build a Website with HTML, CSS, and Javascript" section on "Programming Basics" assignment. </p>
 
-<p>This is my first website.</p>
-
+<script>
+    function myFunction() {
+      document.getElementById("huh").innerHTML = "DON'T ASK ME WHY I DESPISE ART NOW, I WON'T TELL YOU";
+    }
+    </script>
 </body>
 </html>
